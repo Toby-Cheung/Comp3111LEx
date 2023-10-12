@@ -6,7 +6,7 @@ public class MobileComputer extends Computer implements Chargeable{
         secret = "MobileComputer secret";
         battery = 5;
     }
-
+    // update
     @Override
     public void work() {
         if (battery > 0){
